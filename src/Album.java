@@ -31,6 +31,17 @@ public class Album {
         return false;
     }
 
+    public boolean addSong(String title, String duration, String albumName)
+    {
+        Album foundAlbum = findAlbum(albumName);
+        if(foundAlbum != null)
+        {
+            foundAlbum.addSong(title, duration, albumName);
+            return true;
+        }
+        return false;
+    }
+
     private Album findAlbum(String albumName)
     {
         Album foundAlbum;
@@ -44,6 +55,7 @@ public class Album {
         }
         return null;
     }
+
 
     public void printAlbums()
     {
