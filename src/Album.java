@@ -41,4 +41,13 @@ public class Album {
         return null;
     }
 
+    public void printAlbums()
+    {
+        for(int i=0; i<albumList.size(); i++)
+        {
+            System.out.println("Album[" + i + "] = " + albumList.get(i).getName());
+        }
+
+    }
+
 }
