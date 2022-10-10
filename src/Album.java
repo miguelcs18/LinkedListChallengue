@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Album {
+    private String name;
     private LinkedList<Song> songsList;
     private ArrayList<Album> albumList;
 
@@ -10,7 +11,7 @@ public class Album {
         this.albumList = new ArrayList<>();
     }
 
-
-
-
+    public String getName() {
+        return name;
+    }
 }
