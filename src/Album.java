@@ -14,4 +14,12 @@ public class Album {
     public String getName() {
         return name;
     }
+
+    public boolean addAlbum(String albumName)
+    {
+        Album albumFound = findAlbum(albumName);
+        return false;
+    }
+
+
 }
