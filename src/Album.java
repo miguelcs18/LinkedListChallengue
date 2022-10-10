@@ -13,6 +13,7 @@ public class Album {
 
     public Album() {
         albumList = new ArrayList<>();
+        songsList = new LinkedList<>();
     }
 
     public String getName() {
