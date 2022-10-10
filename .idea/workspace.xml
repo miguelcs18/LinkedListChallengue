@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Delete constructor for Album with linkedlist and arraylist">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Add logic to method addAlbum and findAlbum">
       <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665411071872</updated>
-      <workItem from="1665411074698" duration="4271000" />
+      <workItem from="1665411074698" duration="4729000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665413064843</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add logic to method addAlbum and findAlbum">
+      <created>1665415405328</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665415405328</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +174,7 @@
     <MESSAGE value="Method findAlbum" />
     <MESSAGE value="Constructor with name of Album only and logic for addAlbum and findAlbum methods" />
     <MESSAGE value="Delete constructor for Album with linkedlist and arraylist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete constructor for Album with linkedlist and arraylist" />
+    <MESSAGE value="Add logic to method addAlbum and findAlbum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add logic to method addAlbum and findAlbum" />
   </component>
 </project>

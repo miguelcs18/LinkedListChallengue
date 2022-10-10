@@ -11,6 +11,9 @@ public class Album {
         this.name = name;
     }
 
+    public Album() {
+    }
+
     public String getName() {
         return name;
     }
