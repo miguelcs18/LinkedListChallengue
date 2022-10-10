@@ -4,6 +4,7 @@ public class Main {
         Album  albumTest = new Album();
         albumTest.addAlbum("Van Haleen");
         albumTest.addAlbum("Black Sabbath");
+        albumTest.addAlbum("Van Haleen");
         albumTest.printAlbums();
     }
 }

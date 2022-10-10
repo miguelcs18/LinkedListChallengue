@@ -25,6 +25,7 @@ public class Album {
         if (albumFound == null)
         {
             this.albumList.add(new Album(albumName));
+            return true;
         }
         return false;
     }
