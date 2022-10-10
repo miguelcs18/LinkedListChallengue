@@ -6,9 +6,9 @@ public class Album {
     private LinkedList<Song> songsList;
     private ArrayList<Album> albumList;
 
-    public Album(LinkedList<Song> songsList, ArrayList<Album> albumList, String albumName, String songName) {
-        this.songsList = new LinkedList<>();
-        this.albumList = new ArrayList<>();
+
+    public Album(String name) {
+        this.name = name;
     }
 
     public String getName() {
@@ -18,13 +18,24 @@ public class Album {
     public boolean addAlbum(String albumName)
     {
         Album albumFound = findAlbum(albumName);
+        if (albumFound == null)
+        {
+            this.albumList.add(new Album(albumName));
+        }
         return false;
     }
 
     private Album findAlbum(String albumName)
     {
 
-
+        for(int i=0; i<albumList.size(); i++ )
+        {
+            if(albumList.get(i).getName().equals(albumName))
+            {
+                return albumList.get(i);
+            }
+        }
+        return null;
     }
 
 }
