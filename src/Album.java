@@ -36,7 +36,7 @@ public class Album {
         Album foundAlbum = findAlbum(albumName);
         if(foundAlbum != null)
         {
-            foundAlbum.addSong(song, albumName);
+            foundAlbum.songsList.add(song);
             return true;
         }
         return false;

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Setter for title and duration of class Song">
-      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
-    </list>
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Change logic to addSong method to get a song object and add it to Album" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665411071872</updated>
-      <workItem from="1665411074698" duration="9023000" />
+      <workItem from="1665411074698" duration="9196000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -220,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665421262693</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Change logic to addSong method to get a song object and add it to Album">
+      <created>1665421525793</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665421525793</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +266,7 @@
     <MESSAGE value="Add class Song constructor." />
     <MESSAGE value="addSong method and logic to add a song to a given Album." />
     <MESSAGE value="Setter for title and duration of class Song" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setter for title and duration of class Song" />
+    <MESSAGE value="Change logic to addSong method to get a song object and add it to Album" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change logic to addSong method to get a song object and add it to Album" />
   </component>
 </project>
