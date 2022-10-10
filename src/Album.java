@@ -31,12 +31,12 @@ public class Album {
         return false;
     }
 
-    public boolean addSong(String title, String duration, String albumName)
+    public boolean addSong(Song song, String albumName)
     {
         Album foundAlbum = findAlbum(albumName);
         if(foundAlbum != null)
         {
-            foundAlbum.addSong(title, duration, albumName);
+            foundAlbum.addSong(song, albumName);
             return true;
         }
         return false;
