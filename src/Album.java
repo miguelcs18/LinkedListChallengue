@@ -27,17 +27,19 @@ public class Album {
             this.albumList.add(new Album(albumName));
             return true;
         }
+        System.out.println("Album  " + albumFound.getName() + " already exists and could not be added!");
         return false;
     }
 
     private Album findAlbum(String albumName)
     {
-
+        Album foundAlbum;
         for(int i=0; i<albumList.size(); i++ )
         {
-            if(albumList.get(i).getName().equals(albumName))
+            foundAlbum = albumList.get(i);
+            if(foundAlbum.getName().equals(albumName))
             {
-                return albumList.get(i);
+                return foundAlbum;
             }
         }
         return null;

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Initialize albumList.">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="return true to validate when findAlbum returns null">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665411071872</updated>
-      <workItem from="1665411074698" duration="5747000" />
+      <workItem from="1665411074698" duration="6922000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -178,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665417912585</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="return true to validate when findAlbum returns null">
+      <created>1665418462762</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665418462762</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +223,7 @@
     <MESSAGE value="printAlbums method" />
     <MESSAGE value="Test methods from Album class." />
     <MESSAGE value="Initialize albumList." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialize albumList." />
+    <MESSAGE value="return true to validate when findAlbum returns null" />
+    <option name="LAST_COMMIT_MESSAGE" value="return true to validate when findAlbum returns null" />
   </component>
 </project>
