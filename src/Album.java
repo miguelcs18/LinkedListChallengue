@@ -21,5 +21,10 @@ public class Album {
         return false;
     }
 
+    private Album findAlbum(String albumName)
+    {
+
+
+    }
 
 }
