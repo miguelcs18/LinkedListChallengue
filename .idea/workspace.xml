@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Modify logic for findAlbum method to get the Album object only once to get the name of the object.">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Add class Song constructor.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Song.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665411071872</updated>
-      <workItem from="1665411074698" duration="7641000" />
+      <workItem from="1665411074698" duration="8513000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665419631042</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add class Song constructor.">
+      <created>1665420123325</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665420123325</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +239,7 @@
     <MESSAGE value="Initialize albumList." />
     <MESSAGE value="return true to validate when findAlbum returns null" />
     <MESSAGE value="Modify logic for findAlbum method to get the Album object only once to get the name of the object." />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify logic for findAlbum method to get the Album object only once to get the name of the object." />
+    <MESSAGE value="Add class Song constructor." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add class Song constructor." />
   </component>
 </project>
