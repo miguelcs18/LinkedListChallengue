@@ -12,6 +12,7 @@ public class Album {
     }
 
     public Album() {
+        albumList = new ArrayList<>();
     }
 
     public String getName() {
