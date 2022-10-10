@@ -9,11 +9,12 @@ public class Album {
 
     public Album(String name) {
         this.name = name;
+        this.songsList = new LinkedList<>();
+
     }
 
     public Album() {
-        albumList = new ArrayList<>();
-        songsList = new LinkedList<>();
+        this.albumList = new ArrayList<>();
     }
 
     public String getName() {
@@ -57,7 +58,6 @@ public class Album {
         return null;
     }
 
-
     public void printAlbums()
     {
         for(int i=0; i<albumList.size(); i++)
@@ -66,5 +66,4 @@ public class Album {
         }
 
     }
-
 }

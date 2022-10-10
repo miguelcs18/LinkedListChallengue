@@ -6,7 +6,12 @@ public class Main {
         Album  albumTest = new Album();
         albumTest.addAlbum("Van Haleen");
         albumTest.addAlbum("Black Sabbath");
-        albumTest.addAlbum("Van Haleen");
+        Song song = new Song("Jump","5:05");
+
+        boolean songAdded =  albumTest.addSong(song,"Van Haleen");
+        System.out.println("Song added = " + songAdded);
+
+        albumTest.printAlbums();
     }
 
 }
