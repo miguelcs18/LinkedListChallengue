@@ -45,6 +45,25 @@ public class Album {
         return false;
     }
 
+    public boolean addSongToPlayList(LinkedList<Song> playList, String songName, String albumName)
+    {
+        Album foundAlbum = findAlbum(albumName);
+        if(foundAlbum != null)
+        {
+            Song foundSong = findSong(songName);
+            if(foundSong != null)
+            {
+                playList.add(foundSong);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        return false;
+    }
+
     private Album findAlbum(String albumName)
     {
         Album foundAlbum;
