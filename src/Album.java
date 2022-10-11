@@ -50,7 +50,7 @@ public class Album {
         Album foundAlbum = findAlbum(albumName);
         if(foundAlbum != null)
         {
-            Song foundSong = findSong(songName);
+            Song foundSong = findSong(songName, albumName);
             if(foundSong != null)
             {
                 playList.add(foundSong);
