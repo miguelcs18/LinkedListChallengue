@@ -78,7 +78,8 @@ public class Album {
 
             while(i.hasNext())
             {
-                System.out.println("Song =" + i.next().getTitle());
+                Song song  = i.next();
+                System.out.println("Song :" + song.getTitle() + " duration: " + song.getDuration());
             }
         }
     }

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Method printAlbumSongs to print the songs on an Album and its logic">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Change for loop for the iterator and ad test data to main.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665411071872</updated>
-      <workItem from="1665411074698" duration="17297000" />
+      <workItem from="1665411074698" duration="21154000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665496092611</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Change for loop for the iterator and ad test data to main.">
+      <created>1665499364044</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1665499364044</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +281,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Members variables title and duration." />
     <MESSAGE value="Album class." />
     <MESSAGE value="Member variables songsList and albumList for class Album" />
     <MESSAGE value="Add Album class constructor" />
@@ -300,6 +305,7 @@
     <MESSAGE value="Instantiate songList linked list" />
     <MESSAGE value="Instantiate songList linked list in Album correct constructor" />
     <MESSAGE value="Method printAlbumSongs to print the songs on an Album and its logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Method printAlbumSongs to print the songs on an Album and its logic" />
+    <MESSAGE value="Change for loop for the iterator and ad test data to main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change for loop for the iterator and ad test data to main." />
   </component>
 </project>

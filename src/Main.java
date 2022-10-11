@@ -6,10 +6,10 @@ public class Main {
         Album  albumTest = new Album();
         albumTest.addAlbum("Van Haleen");
         albumTest.addAlbum("Black Sabbath");
-        Song song = new Song("Jump","5:05");
-        Song song2 = new Song("Panama","5:05");
-        Song song3 = new Song("Paranoid","5:05");
-        Song song4 = new Song("Dark","5:05");
+        Song song = new Song("Jump","05:05");
+        Song song2 = new Song("Panama","06:55");
+        Song song3 = new Song("Paranoid","04:05");
+        Song song4 = new Song("Dark","07:03");
 
         boolean songAdded =  albumTest.addSong(song,"Van Haleen");
         System.out.println("Song added = " + songAdded);
