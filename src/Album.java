@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class Album {
@@ -67,15 +68,17 @@ public class Album {
 
     }
 
-    public void printAlumSongs(String albumName)
+    public void printAlbumSongs(String albumName)
     {
         Album foundAlbum = findAlbum(albumName);
         if(foundAlbum != null)
         {
-            System.out.println("Album " + foundAlbum.getName() + " has the next songs ");
-            for(int i=0; i< foundAlbum.songsList.size(); i++)
+            System.out.println("songs in album " + foundAlbum.getName()  + " are:");
+            Iterator<Song> i = foundAlbum.songsList.iterator();
+
+            while(i.hasNext())
             {
-                System.out.println("songList["+ i +"] = " + songsList.get(i).getTitle());
+                System.out.println("Song =" + i.next().getTitle());
             }
         }
     }

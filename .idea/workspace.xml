@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Instantiate songList linked list in Album correct constructor">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Method printAlbumSongs to print the songs on an Album and its logic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665411071872</updated>
-      <workItem from="1665411074698" duration="14483000" />
+      <workItem from="1665411074698" duration="17297000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665426884241</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Method printAlbumSongs to print the songs on an Album and its logic">
+      <created>1665496092610</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1665496092611</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +275,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Song class added" />
     <MESSAGE value="Members variables title and duration." />
     <MESSAGE value="Album class." />
     <MESSAGE value="Member variables songsList and albumList for class Album" />
@@ -292,6 +299,7 @@
     <MESSAGE value="addSong method call to add method in songList list" />
     <MESSAGE value="Instantiate songList linked list" />
     <MESSAGE value="Instantiate songList linked list in Album correct constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Instantiate songList linked list in Album correct constructor" />
+    <MESSAGE value="Method printAlbumSongs to print the songs on an Album and its logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Method printAlbumSongs to print the songs on an Album and its logic" />
   </component>
 </project>

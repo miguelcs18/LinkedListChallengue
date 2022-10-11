@@ -7,11 +7,25 @@ public class Main {
         albumTest.addAlbum("Van Haleen");
         albumTest.addAlbum("Black Sabbath");
         Song song = new Song("Jump","5:05");
+        Song song2 = new Song("Panama","5:05");
+        Song song3 = new Song("Paranoid","5:05");
+        Song song4 = new Song("Dark","5:05");
 
         boolean songAdded =  albumTest.addSong(song,"Van Haleen");
         System.out.println("Song added = " + songAdded);
 
+        songAdded = albumTest.addSong(song2,"Van Haleen");
+        System.out.println("Song added = " + songAdded);
+
+        songAdded = albumTest.addSong(song3,"Black Sabbath");
+        System.out.println("Song added = " + songAdded);
+
+        songAdded = albumTest.addSong(song4,"Black Sabbath");
+        System.out.println("Song added = " + songAdded);
+
         albumTest.printAlbums();
+        albumTest.printAlbumSongs("Van Haleen");
+        albumTest.printAlbumSongs("Black Sabbath");
     }
 
 }
