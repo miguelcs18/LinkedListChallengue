@@ -69,7 +69,8 @@ public class Album {
         Album foundAlbum = findAlbum(albumName);
         if(foundAlbum != null)
         {
-            for(int i=0; i<foundAlbum.albumList.size(); i++)
+            System.out.println("Album found in find Song = " + foundAlbum.getName());
+        /*    for(int i=0; i<foundAlbum.albumList.size(); i++)
             {
                 for(int j=0; j<foundAlbum.songsList.size(); j++)
                 {
@@ -79,7 +80,7 @@ public class Album {
                         return  foundSong;
                     }
                 }
-            }
+            }*/
         }
         return null;
     }
