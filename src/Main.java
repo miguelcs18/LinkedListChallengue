@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -25,6 +27,14 @@ public class Main {
         albumTest.printAlbums();
         albumTest.printAlbumSongs("Van Haleen");
         albumTest.printAlbumSongs("Black Sabbath");
+
+        LinkedList<Song> myPlaylist = new LinkedList<>();
+        albumTest.addSongToPlayList(myPlaylist,"Jump","Van Haleen");
+
+        for(int i = 0; i<myPlaylist.size(); i++)
+        {
+            System.out.println("My playlist = " + myPlaylist.get(i).getTitle());
+        }
     }
 
 }

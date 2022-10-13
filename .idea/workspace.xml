@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="albumName to findSong method">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="findSong method and logic">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665411071872</updated>
-      <workItem from="1665411074698" duration="24779000" />
+      <workItem from="1665411074698" duration="25101000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -284,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665530358046</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="findSong method and logic">
+      <created>1665684127018</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1665684127019</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +308,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Member variable for Album class and getter." />
     <MESSAGE value="Method addAlbum" />
     <MESSAGE value="Method findAlbum" />
     <MESSAGE value="Constructor with name of Album only and logic for addAlbum and findAlbum methods" />
@@ -327,6 +332,7 @@
     <MESSAGE value="Song object to complete print with duration of song" />
     <MESSAGE value="Method addSongToPlayList and its logic." />
     <MESSAGE value="albumName to findSong method" />
-    <option name="LAST_COMMIT_MESSAGE" value="albumName to findSong method" />
+    <MESSAGE value="findSong method and logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="findSong method and logic" />
   </component>
 </project>
