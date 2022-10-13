@@ -64,6 +64,25 @@ public class Album {
         return false;
     }
 
+    private Song findSong(String songName, String albumName)
+    {
+        Album foundAlbum = findAlbum(albumName);
+        if(foundAlbum != null)
+        {
+            for(int i=0; i<foundAlbum.albumList.size(); i++)
+            {
+                for(int j=0; j<foundAlbum.songsList.size(); j++)
+                {
+                    Song foundSong =  foundAlbum.songsList.get(j);
+                    if(foundSong.getTitle().equals(songName))
+                    {
+                        return  foundSong;
+                    }
+                }
+            }
+        }
+        return null;
+    }
     private Album findAlbum(String albumName)
     {
         Album foundAlbum;
