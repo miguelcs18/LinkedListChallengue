@@ -30,6 +30,9 @@ public class Main {
 
         LinkedList<Song> myPlaylist = new LinkedList<>();
         albumTest.addSongToPlayList(myPlaylist,"Jump","Van Haleen");
+        albumTest.addSongToPlayList(myPlaylist,"Paranoid","Black Sabbath");
+        albumTest.addSongToPlayList(myPlaylist,"Panama","Van Haleen");
+        albumTest.addSongToPlayList(myPlaylist,"Dark","Black Sabbath");
 
         for(int i = 0; i<myPlaylist.size(); i++)
         {
