@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Adding test data for playlist">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Scanner and options Menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
       <updated>1665411071872</updated>
       <workItem from="1665411074698" duration="29851000" />
       <workItem from="1667239224945" duration="857000" />
-      <workItem from="1667240123869" duration="305000" />
+      <workItem from="1667240123869" duration="1011000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -321,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665685876329</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Scanner and options Menu">
+      <created>1667240704675</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1667240704675</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -339,7 +346,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add logic to method addAlbum and findAlbum" />
     <MESSAGE value="Add empty constructor to Album class" />
     <MESSAGE value="Add test data in main class" />
     <MESSAGE value="printAlbums method" />
@@ -364,6 +370,7 @@
     <MESSAGE value="Test findSong method" />
     <MESSAGE value="Test findSong method for songList size" />
     <MESSAGE value="Adding test data for playlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding test data for playlist" />
+    <MESSAGE value="Scanner and options Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scanner and options Menu" />
   </component>
 </project>
