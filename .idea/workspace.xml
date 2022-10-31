@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Test findSong method for songList size">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Adding test data for playlist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,17 +32,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -64,7 +65,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665411071872</updated>
-      <workItem from="1665411074698" duration="26309000" />
+      <workItem from="1665411074698" duration="29851000" />
+      <workItem from="1667239224945" duration="857000" />
+      <workItem from="1667240123869" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -311,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665685259162</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Adding test data for playlist">
+      <created>1665685876327</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1665685876329</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +339,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Delete constructor for Album with linkedlist and arraylist" />
     <MESSAGE value="Add logic to method addAlbum and findAlbum" />
     <MESSAGE value="Add empty constructor to Album class" />
     <MESSAGE value="Add test data in main class" />
@@ -354,6 +363,7 @@
     <MESSAGE value="Adding test data to main method" />
     <MESSAGE value="Test findSong method" />
     <MESSAGE value="Test findSong method for songList size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test findSong method for songList size" />
+    <MESSAGE value="Adding test data for playlist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding test data for playlist" />
   </component>
 </project>

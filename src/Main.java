@@ -1,4 +1,5 @@
 import java.util.LinkedList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,6 +39,36 @@ public class Main {
         {
             System.out.println("My playlist = " + myPlaylist.get(i).getTitle());
         }
-    }
 
+        Scanner scanner = new Scanner(System.in);
+        boolean quit = false;
+
+        while(!quit)
+        {
+            System.out.println("Choose option...");
+            int option = scanner.nextInt();
+            switch(option)
+            {
+                case 1:
+                    quit = true;
+                    System.out.println("Quit program!");
+                    break;
+                case 2:
+                    System.out.println("Skip forward to the next song!");
+                    break;
+                case 3:
+                    System.out.println("Skip backwards to a previous song");
+                    break;
+                case 4:
+                    System.out.println("Replay the current song");
+                    break;
+                case 5:
+                    System.out.println("List the songs in play list");
+                    break;
+                default:
+                    System.out.println("Unknown option, try again to a valid option");
+                    break;
+            }
+        }
+    }
 }
