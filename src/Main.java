@@ -64,6 +64,7 @@ public class Main {
                     break;
                 case 5:
                     System.out.println("List the songs in play list");
+                    albumTest.printMyPlaylist(myPlaylist);
                     break;
                 default:
                     System.out.println("Unknown option, try again to a valid option");
