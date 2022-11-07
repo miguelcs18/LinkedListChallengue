@@ -1,5 +1,6 @@
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.ListIterator;
 import java.util.Scanner;
 
 public class Main {
@@ -43,6 +44,17 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
+        ListIterator<Song> listIterator = myPlaylist.listIterator();
+        boolean goingForward = true;
+
+        if(myPlaylist.isEmpty())
+        {
+            System.out.println("No songs in playlist");
+        }
+        else
+        {
+            System.out.println("Now playing Song:" + listIterator.next().getTitle());
+        }
 
         while(!quit)
         {
@@ -56,12 +68,48 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("Skip forward to the next song!");
+                    if(!goingForward)
+                    {
+                        if(listIterator.hasNext())
+                        {
+                            System.out.println("Song: " + listIterator.next().getTitle() );
+                        }
+                        goingForward = true;
+                    }
+                    if(listIterator.hasNext())
+                    {
+                        System.out.println("Song: " + listIterator.next().getTitle() );
+                    }
+                    else
+                    {
+                        System.out.println("You have reached the end of list");
+                        goingForward = false;
+                    }
                     break;
                 case 3:
                     System.out.println("Skip backwards to a previous song");
+                    if(goingForward)
+                    {
+                        if(listIterator.hasPrevious())
+                        {
+                            System.out.println("Song: " + listIterator.previous().getTitle() );
+                        }
+                        goingForward = false;
+                    }
+                    if(listIterator.hasPrevious())
+                    {
+                        System.out.println("Song:" + listIterator.previous().getTitle() );
+                    }
+                    else
+                    {
+                        System.out.println("You have reached the end of playlist");
+                        goingForward = true;
+                    }
                     break;
                 case 4:
                     System.out.println("Replay the current song");
+                    listIterator.previous();
+                    System.out.println("Replaying Song:" + listIterator.next().getTitle());
                     break;
                 case 5:
                     System.out.println("List the songs in play list");
@@ -74,7 +122,4 @@ public class Main {
         }
     }
 
-    public void skipForward(LinkedList<Song> playList){
-
-    }
 }

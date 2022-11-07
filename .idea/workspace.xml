@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Add Iterator to iterate through play list">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Move logic to skip forward in list to skipForward method">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +67,7 @@
       <updated>1665411071872</updated>
       <workItem from="1665411074698" duration="29851000" />
       <workItem from="1667239224945" duration="857000" />
-      <workItem from="1667240123869" duration="3087000" />
+      <workItem from="1667240123869" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -355,7 +356,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667846438852</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add method skipForward and move Iterator to this method">
+      <created>1667846736891</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1667846736891</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Move logic to skip forward in list to skipForward method">
+      <created>1667846785827</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1667846785827</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,8 +388,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initialize albumList." />
-    <MESSAGE value="return true to validate when findAlbum returns null" />
     <MESSAGE value="Modify logic for findAlbum method to get the Album object only once to get the name of the object." />
     <MESSAGE value="Add class Song constructor." />
     <MESSAGE value="addSong method and logic to add a song to a given Album." />
@@ -398,6 +411,8 @@
     <MESSAGE value="Call printMyPlaylist method to print myPlayList songs" />
     <MESSAGE value="Fix problem with index for i variable." />
     <MESSAGE value="Add Iterator to iterate through play list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Iterator to iterate through play list" />
+    <MESSAGE value="Add method skipForward and move Iterator to this method" />
+    <MESSAGE value="Move logic to skip forward in list to skipForward method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move logic to skip forward in list to skipForward method" />
   </component>
 </project>
