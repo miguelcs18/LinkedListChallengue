@@ -108,12 +108,14 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("Replay the current song");
-                    listIterator.previous();
-                    System.out.println("Replaying Song:" + listIterator.next().getTitle());
                     break;
                 case 5:
                     System.out.println("List the songs in play list");
                     albumTest.printMyPlaylist(myPlaylist);
+                    break;
+                case 6:
+                    System.out.println("Remove song from Play List");
+                    listIterator.remove();
                     break;
                 default:
                     System.out.println("Unknown option, try again to a valid option");
