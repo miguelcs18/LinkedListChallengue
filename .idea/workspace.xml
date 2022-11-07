@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Scanner and options Menu">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Call printMyPlaylist method to print myPlayList songs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Album.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <updated>1665411071872</updated>
       <workItem from="1665411074698" duration="29851000" />
       <workItem from="1667239224945" duration="857000" />
-      <workItem from="1667240123869" duration="1011000" />
+      <workItem from="1667240123869" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -328,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667240704675</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Implement method printMyPlaylist to print playlist songs">
+      <created>1667241195542</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1667241195542</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Call printMyPlaylist method to print myPlayList songs">
+      <created>1667241305616</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1667241305616</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,8 +359,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add empty constructor to Album class" />
-    <MESSAGE value="Add test data in main class" />
     <MESSAGE value="printAlbums method" />
     <MESSAGE value="Test methods from Album class." />
     <MESSAGE value="Initialize albumList." />
@@ -371,6 +382,8 @@
     <MESSAGE value="Test findSong method for songList size" />
     <MESSAGE value="Adding test data for playlist" />
     <MESSAGE value="Scanner and options Menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scanner and options Menu" />
+    <MESSAGE value="Implement method printMyPlaylist to print playlist songs" />
+    <MESSAGE value="Call printMyPlaylist method to print myPlayList songs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Call printMyPlaylist method to print myPlayList songs" />
   </component>
 </project>

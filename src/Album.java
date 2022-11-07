@@ -129,7 +129,7 @@ public class Album {
         System.out.println("My playlist contains the songs: ");
         for(int i=0; i<myPlayList.size(); i++)
         {
-            System.out.println("[" + i + 1 + "] = title: " + myPlayList.get(i).getTitle() + " duration: " + myPlayList.get(i).getDuration());
+            System.out.println("[" + (i + 1) + "] = title: " + myPlayList.get(i).getTitle() + " duration: " + myPlayList.get(i).getDuration());
         }
     }
 }
