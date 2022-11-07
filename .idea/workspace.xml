@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Call printMyPlaylist method to print myPlayList songs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Fix problem with index for i variable.">
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <updated>1665411071872</updated>
       <workItem from="1665411074698" duration="29851000" />
       <workItem from="1667239224945" duration="857000" />
-      <workItem from="1667240123869" duration="2385000" />
+      <workItem from="1667240123869" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -341,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667241305616</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Fix problem with index for i variable.">
+      <created>1667846101998</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1667846101999</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +366,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="printAlbums method" />
     <MESSAGE value="Test methods from Album class." />
     <MESSAGE value="Initialize albumList." />
     <MESSAGE value="return true to validate when findAlbum returns null" />
@@ -384,6 +390,7 @@
     <MESSAGE value="Scanner and options Menu" />
     <MESSAGE value="Implement method printMyPlaylist to print playlist songs" />
     <MESSAGE value="Call printMyPlaylist method to print myPlayList songs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Call printMyPlaylist method to print myPlayList songs" />
+    <MESSAGE value="Fix problem with index for i variable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix problem with index for i variable." />
   </component>
 </project>

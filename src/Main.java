@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -42,6 +43,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
+        Iterator<Song> i = myPlaylist.iterator();
 
         while(!quit)
         {
