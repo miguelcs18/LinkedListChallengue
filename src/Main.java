@@ -43,7 +43,6 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         boolean quit = false;
-        Iterator<Song> i = myPlaylist.iterator();
 
         while(!quit)
         {
@@ -57,6 +56,10 @@ public class Main {
                     break;
                 case 2:
                     System.out.println("Skip forward to the next song!");
+                    if(i.hasNext())
+                    {
+                        System.out.println("Song: " + i.next().getTitle() + " Duration: " + i.next().getDuration());
+                    }
                     break;
                 case 3:
                     System.out.println("Skip backwards to a previous song");
@@ -73,5 +76,9 @@ public class Main {
                     break;
             }
         }
+    }
+
+    public void skipForward(LinkedList<Song> playList){
+
     }
 }

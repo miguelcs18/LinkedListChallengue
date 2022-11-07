@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Fix problem with index for i variable.">
+    <list default="true" id="d578a0a9-2d78-4ca5-9acc-7d26db402752" name="Changes" comment="Add Iterator to iterate through play list">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +66,7 @@
       <updated>1665411071872</updated>
       <workItem from="1665411074698" duration="29851000" />
       <workItem from="1667239224945" duration="857000" />
-      <workItem from="1667240123869" duration="2739000" />
+      <workItem from="1667240123869" duration="3087000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1665411146134</created>
@@ -348,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667846101999</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Add Iterator to iterate through play list">
+      <created>1667846438852</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1667846438852</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +373,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Test methods from Album class." />
     <MESSAGE value="Initialize albumList." />
     <MESSAGE value="return true to validate when findAlbum returns null" />
     <MESSAGE value="Modify logic for findAlbum method to get the Album object only once to get the name of the object." />
@@ -391,6 +397,7 @@
     <MESSAGE value="Implement method printMyPlaylist to print playlist songs" />
     <MESSAGE value="Call printMyPlaylist method to print myPlayList songs" />
     <MESSAGE value="Fix problem with index for i variable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix problem with index for i variable." />
+    <MESSAGE value="Add Iterator to iterate through play list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Iterator to iterate through play list" />
   </component>
 </project>
